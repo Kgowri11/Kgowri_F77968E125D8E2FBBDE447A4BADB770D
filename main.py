@@ -1,8 +1,17 @@
-n=int(input("enter a number"))
-f=1
-i=1
-while(i<=n):
-  
-  f=f*i
-  i=i+1
-print("the factorial is",f)
+class player:
+         def play(self):
+                print("the player is playing cricket")
+
+class batsman(player):
+          def play(self):
+                 print("the batsman is batting")
+
+class bowler(player):
+           def play(self):
+                   print("the bowler is bowling")
+
+batsman=batsman()
+bowler=bowler()
+
+batsman.play()
+bowler.play()
